@@ -1,6 +1,6 @@
-# Slope One and Weighted Slope One Recommender System using Netflix Data
+# Slope One and Weighted Slope One Recommender System using Netflix Dataset
 
-This is a Degree Project in Computer Science (DD143X). Written by Benny Tieu and Brian Ye.
+This is a Degree Project in Computer Science (DD143X). Written by Benny Tieu and Brian Ye (2015).
 
 Abstract:
 Recommender systems are used on many different websites today and are mechanisms that are supposed to accurately give personalized recommendations of items to a set of different users. An item can for example be movies on Netflix. The purpose of this paper is to implement an algorithm that fulfills five stated goals of the implementation. The goals are as followed: the algorithm should be easy to implement, be effective on query time, accurate on recommendations, put little expectations on users and alternations of algorithm should not have to be changed comprehensively. Slope One is a simplified version of linear regression and can be used to recommend items. By using the Netflix Prize data set from 2009 and the Root-Mean-Square-Error (RMSE) as an evaluator, Slope One generates an accuracy of 1.007 units. The Weighted Slope One, which takes the relevancy of items into the calculation, generates an accuracy of 0.990 units.  Adding Weighted Slope One to the Slope One implementation can be done without changing the fundamentals of the Slope One algorithm. It is nearly instantaneous to generate a recommendation of a movie with regular Slope One and Weighted Slope One. However, a precomputing stage is needed for the mechanism. In order to receive a recommendation of the implementation in this paper, the user must at least have rated two items.
